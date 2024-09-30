@@ -1,0 +1,22 @@
+{
+  "name": "smoketrees-assignment",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev":"SET NODE_ENV=DEVELOPMENT & nodemon backend/app.js",
+    "prod":"SET NODE_ENV=PRODUCTION & nodemon backend/app.js"
+  },
+  "author": "Bheemchand",
+  "license": "ISC",
+  "description": "Address form",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
