@@ -3,6 +3,6 @@ import { updateUserAndAddress } from "../controllers/userAddressControllers.js"
 const router=expess.Router()
 
 
-router.route("/usersAddress").post(updateUserAndAddress);
+router.route("/register").post(updateUserAndAddress);
 
 export default router

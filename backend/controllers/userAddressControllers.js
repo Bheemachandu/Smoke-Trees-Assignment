@@ -29,6 +29,7 @@ export const updateUserAndAddress=catchAsyncErrors(async (req,res)=>{
         userId,
         address,
     })
+    console.log(userAddress)
 
     res.status(200).json({
         message:"bheemchand"
